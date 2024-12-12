@@ -1,0 +1,110 @@
+.topo {
+    background-color: rgb(23, 163, 74);
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+html {
+    font-family: "Poppins" sans-serif;
+    background-color: rgb(242, 243, 245);
+}
+
+.fag {
+    font-family: 'Poppins' sans-serif;
+    color: white;
+}
+
+img {
+    max-width: 25px;
+}
+
+.o {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+.fa{
+    margin-top: -20px;
+    color: white;
+}
+
+.prox {
+    background-color: white;
+    max-width: 75%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.oi {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ga {
+    margin-top: -20px;
+}
+
+.buttons {
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.buttons button {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.q {
+    width: 400px;
+    background-color: rgb(21, 163, 73);
+    display: flex;
+    align-items: center;
+}
+
+.w {
+    background-color: rgb(220, 252, 231);
+    color: rgb(55, 108, 82);
+    display: flex;
+    align-items: center;
+}
+
+.e {
+    background-color: rgb(220, 252, 231);
+    color: rgb(55, 108, 82);
+    display: flex;
+    align-items: center;
+}
+
+.L {
+    display: flex;
+    align-items: center;
+}
+
+.horas {
+    display: flex;
+    flex-direction: column;
+}
+
+.mantenhaacalmaefaçaoL {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iti {
+    display: flex;
+    flex-direction: column;
+}
+
+.dois {
+    display: flex;
+    align-items: center;
+    max-width: 75%;
+}
