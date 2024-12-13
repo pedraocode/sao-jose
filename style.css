@@ -2,16 +2,18 @@
     background-color: rgb(23, 163, 74);
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 10px;
     max-width: 100%;
 }
 
 html {
-    font-family: "Poppins" sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: rgb(242, 243, 245);
 }
 
 .fag {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 
@@ -22,9 +24,10 @@ img {
 .o {
     display: flex;
     align-items: center;
-    gap: 10px
+    gap: 10px;
 }
-.fa{
+
+.fa {
     margin-top: -20px;
     color: white;
 }
@@ -32,13 +35,16 @@ img {
 .prox {
     background-color: white;
     max-width: 75%;
-    padding: 5px;
+    padding: 20px;
     border-radius: 10px;
+    margin: 20px auto;
+    text-align: start;
 }
 
 .oi {
     display: flex;
     align-items: center;
+    justify-content: start;
     gap: 10px;
 }
 
@@ -46,65 +52,109 @@ img {
     margin-top: -20px;
 }
 
+.ga h1 {
+    color: rgb(52, 148, 92);
+}
+
 .buttons {
-    max-width: 80%;
+    max-width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    background-color: white;
 }
 
 .buttons button {
-    width: 400px;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: none;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .q {
-    width: 400px;
     background-color: rgb(21, 163, 73);
-    display: flex;
-    align-items: center;
+    color: white;
 }
 
 .w {
     background-color: rgb(220, 252, 231);
     color: rgb(55, 108, 82);
-    display: flex;
-    align-items: center;
 }
 
 .e {
     background-color: rgb(220, 252, 231);
     color: rgb(55, 108, 82);
-    display: flex;
-    align-items: center;
 }
 
 .L {
     display: flex;
     align-items: center;
+    justify-content: start;
+    gap: 10px;
 }
 
 .horas {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+.horario {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+    text-align: left;
+}
+
+.hora {
+    flex: 1;
+    text-align: left;
+}
+
+.dia {
+    flex: 1;
+    text-align: right;
 }
 
 .mantenhaacalmaefaçaoL {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin: 5px 0;
 }
 
 .iti {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .dois {
     display: flex;
-    align-items: center;
+    justify-content: center;
     max-width: 75%;
+    margin: 0 auto;
 }
