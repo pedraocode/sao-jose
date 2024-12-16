@@ -5,58 +5,63 @@
     align-items: center;
     padding: 10px;
     max-width: 100%;
-}
-
-html {
+    }
+    
+    html {
     font-family: "Poppins", sans-serif;
     background-color: rgb(242, 243, 245);
-}
-
-.fag {
+    }
+    
+    body {
+    padding: 0px;
+    margin: 0px;
+    }
+    
+    .fag {
     font-family: 'Poppins', sans-serif;
     color: white;
-}
-
-img {
+    }
+    
+    img {
     max-width: 25px;
-}
-
-.o {
+    }
+    
+    .o {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.fa {
+    }
+    
+    .fa {
     margin-top: -20px;
     color: white;
-}
-
-.prox {
+    }
+    
+    .prox {
     background-color: white;
     max-width: 75%;
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
     text-align: start;
-}
-
-.oi {
+    }
+    
+    .oi {
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 10px;
-}
-
-.ga {
+    }
+    
+    .ga {
     margin-top: -20px;
-}
-
-.ga h1 {
+    }
+    
+    .ga h1 {
     color: rgb(52, 148, 92);
-}
-
-.buttons {
+    }
+    
+    .buttons {
     max-width: 75%;
     padding-left: 20px;
     padding-right: 20px;
@@ -68,9 +73,9 @@ img {
     gap: 10px;
     margin: 20px auto;
     background-color: white;
-}
-
-.buttons button {
+    }
+    
+    .buttons button {
     width: 100%;
     display: flex;
     align-items: center;
@@ -79,82 +84,243 @@ img {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-}
-
-.q {
+    }
+    
+    .q {
     background-color: rgb(21, 163, 73);
     color: white;
-}
-
-.w {
+    }
+    
+    .w {
     background-color: rgb(220, 252, 231);
     color: rgb(55, 108, 82);
-}
-
-.e {
+    }
+    
+    .e {
     background-color: rgb(220, 252, 231);
     color: rgb(55, 108, 82);
-}
-
-.L {
+    }
+    
+    .R{
     display: flex;
     align-items: center;
     justify-content: start;
     gap: 10px;
-}
-
-.horas {
+    margin-right: auto;
+    margin-left: 20px;
+    }
+    
+    .horas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin-bottom: 20px;
     background-color: white;
     width: 100%;
-}
-
-.horario {
+    border-radius: 10px;
+    }
+    
+    .horario {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 90%;
     margin: 10px;
+    gap: 10px;
     padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: rgb(244, 244, 244);
     text-align: left;
-}
-
-.hora {
+    }
+    
+    .hora {
     flex: 1;
     text-align: left;
-}
-
-.dia {
+    }
+    
+    .dia {
     flex: 1;
     text-align: right;
-}
-
-.mantenhaacalmaefaçaoL {
+    }
+    
+    .mantenhaacalmaefaçaoL {
     display: flex;
     align-items: center;
     gap: 10px;
     margin: 5px 0;
-}
-
-.iti {
+    position: relative;
+    z-index: 2;
+    }
+    .mantenhaacalmaefaçaoL2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+    }
+    .iti {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 20px;
+    margin-left: 20px;
     background-color: white;
     width: 100%;
     padding: 20px;
     border-radius: 10px;
-}
-
-.dois {
+    margin-bottom: 20px;
+    }
+    
+    .dois {
     display: flex;
     justify-content: center;
     max-width: 75%;
     margin: 0 auto;
-}
+    }
+    
+    .legorfortnitekkk {
+    
+    
+    margin-top: -25px;
+    }
+    
+    .line {
+    border: 2px solid rgb(0, 173, 12);
+    margin: 0 auto;
+    height: 140px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 11px;
+    margin-top: 70px;
+    }
+    
+    @media (max-width: 768px) {
+    .topo {
+    padding: 15px;
+    }
+    
+    
+    .fag {
+        font-size: 1.5em;
+    }
+    
+    .fa {
+        font-size: 1em;
+    }
+    
+    .prox {
+        max-width: 90%;
+        padding: 15px;
+    }
+    
+    .oi {
+        gap: 5px;
+    }
+    
+    .ga h1 {
+        font-size: 1.5em;
+    }
+    
+    .buttons {
+        flex-direction: column;
+        max-width: 90%;
+        padding: 15px;
+    }
+    
+    .buttons button {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .horas {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    
+    .horario {
+        width: 90%;
+        margin: 10px;
+    
+    }
+    
+    .iti {
+        width: 90%;
+        
+        margin-bottom: 15px;
+    }
+    
+    .dois {
+        flex-direction: column;
+       align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .line {
+        height: 120px;
+        margin-top:80px;
+    }
+    }
+    
+    @media (max-width: 480px) {
+    .topo {
+    padding: 10px;
+    }
+    
+    
+    .fag {
+        font-size: 1.2em;
+    }
+    
+    .fa {
+        font-size: 0.9em;
+    }
+    
+    .prox {
+        max-width: 95%;
+        padding: 10px;
+    }
+    
+    .oi {
+        gap: 5px;
+    }
+    
+    .ga h1 {
+        font-size: 1.2em;
+    }
+    
+    .buttons {
+        max-width: 95%;
+        padding: 10px;
+    }
+    
+    .buttons button {
+        padding: 10px;
+    }
+    
+    .horas {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .horario {
+        width: 90%;
+        margin: 10px;
+    
+    }
+    
+    .iti {
+        width: 100%;
+
+        margin-bottom: 10px;
+    }
+    
+    .dois {
+        max-width: 95%;
+    }
+    
+    .line {
+        height: 80px;
+        margin-top: 40px;
+    }
+    }
+    
+    
