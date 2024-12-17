@@ -2,11 +2,14 @@
     background-color: rgb(23, 163, 74);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: start;
     padding: 10px;
     max-width: 100%;
-    }
-    
+}
+.o, .fa {
+    margin-left: 170px;
+}
     html {
     font-family: "Poppins", sans-serif;
     background-color: rgb(242, 243, 245);
@@ -191,7 +194,11 @@
     margin-left: 11px;
     margin-top: 70px;
     }
-    
+    @media (max-width: 1200px) {
+        .o, .fa {
+margin-left: 0;
+        }
+    }
     @media (max-width: 768px) {
     .topo {
     padding: 15px;
@@ -257,6 +264,10 @@
     .line {
         height: 120px;
         margin-top:80px;
+    }
+
+    .o, .fa {
+        margin-left: 24px;
     }
     }
     
