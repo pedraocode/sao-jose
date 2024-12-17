@@ -19,6 +19,7 @@ html {
 
 body {
     padding: 0px;
+    overflow-x: hidden;
     margin: 0px;
 }
 
@@ -335,7 +336,7 @@ img {
     }
 
     .line {
-        height: 120px;
+        height: 140px;
        
     }
 }
